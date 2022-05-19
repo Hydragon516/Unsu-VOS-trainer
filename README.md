@@ -8,11 +8,13 @@ Edit options in config.py
 
 
 ### STEP 1
+Pretrain with DUTS dataset
 ```
 python pretrain.py
 ```
 
 ### STEP 2
+Fine-tuning with DAVIS dataset
 ```
 python train_for_DAVIS.py
 ```
